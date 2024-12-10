@@ -49,38 +49,6 @@ This repository contains the implementation of a B+ Tree index manager in C. The
 
 
 
-## Contributions
-
-### Yash Vardhan Sharma
-- printTree
-- createNode
-- closeBtree
-- getNumEntries
-- findKey
-- sortParentWhenSpace
-- deleteKeyValue
-- nextEntry
-
-### Kamakshya Nanda
-- initIndexManager
-- createBtree
-- deleteBtree
-- getKeyType
-- sortKeys
-- insertIntoParent
-- deleteKey
-- closeTreeScan
-
-### Prakriti
-- shutdownIndexManager
-- openBtree
-- getNumNodes
-- compareKeys
-- sortParent
-- insertKey
-- openTreeScan
-
-
 # Running the Project Using Make
 
 This guide provides instructions on how to compile, build, and clean the project using the provided `Makefile`. The `Makefile` simplifies the build process by automating the compilation of source files and linking them into an executable.
